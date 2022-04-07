@@ -1,6 +1,0 @@
-framework module NewtonSDK {
-    umbrella header "NewtonSDK.h"
-
-    export *
-    module * { export * }
-}
