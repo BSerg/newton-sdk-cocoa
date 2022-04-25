@@ -395,7 +395,10 @@ __attribute__((swift_name("CandlesTimeGranularity")))
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) NSDKCandlesTimeGranularityCompanion *companion __attribute__((swift_name("companion")));
 @property (class, readonly) NSDKCandlesTimeGranularity *oneMinute __attribute__((swift_name("oneMinute")));
+@property (class, readonly) NSDKCandlesTimeGranularity *fiveMinutes __attribute__((swift_name("fiveMinutes")));
 @property (class, readonly) NSDKCandlesTimeGranularity *tenMinutes __attribute__((swift_name("tenMinutes")));
+@property (class, readonly) NSDKCandlesTimeGranularity *fifteenMinutes __attribute__((swift_name("fifteenMinutes")));
+@property (class, readonly) NSDKCandlesTimeGranularity *thirtyMinutes __attribute__((swift_name("thirtyMinutes")));
 + (NSDKKotlinArray<NSDKCandlesTimeGranularity *> *)values __attribute__((swift_name("values()")));
 @end;
 
@@ -418,7 +421,7 @@ __attribute__((swift_name("GetHistoryMarketDataCandlesUseCase")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)invokeInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(NSDKLong * _Nullable)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
+- (void)invokeInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(int64_t)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -540,7 +543,7 @@ __attribute__((swift_name("HistoryMarketDataRepository")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(NSDKLong * _Nullable)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
+- (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(int64_t)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -676,12 +679,11 @@ __attribute__((swift_name("TimeGranularity")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) NSDKTimeGranularityCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKTimeGranularity *tenMinutes __attribute__((swift_name("tenMinutes")));
 @property (class, readonly) NSDKTimeGranularity *day __attribute__((swift_name("day")));
 @property (class, readonly) NSDKTimeGranularity *hour __attribute__((swift_name("hour")));
-@property (class, readonly) NSDKTimeGranularity *month __attribute__((swift_name("month")));
-@property (class, readonly) NSDKTimeGranularity *sixHour __attribute__((swift_name("sixHour")));
-@property (class, readonly) NSDKTimeGranularity *tenMinutes __attribute__((swift_name("tenMinutes")));
 @property (class, readonly) NSDKTimeGranularity *week __attribute__((swift_name("week")));
+@property (class, readonly) NSDKTimeGranularity *month __attribute__((swift_name("month")));
 @property (class, readonly) NSDKTimeGranularity *year __attribute__((swift_name("year")));
 + (NSDKKotlinArray<NSDKTimeGranularity *> *)values __attribute__((swift_name("values()")));
 @end;
@@ -782,7 +784,7 @@ __attribute__((swift_name("HistoryMarketDataRepositoryImpl")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(NSDKLong * _Nullable)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
+- (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(int64_t)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
