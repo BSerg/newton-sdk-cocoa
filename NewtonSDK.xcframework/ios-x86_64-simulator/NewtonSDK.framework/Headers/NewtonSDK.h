@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class NSDKCurrency, NSDKInstrumentType, NSDKDividendsDescriptorCompanion, NSDKDividendsDescriptor, NSDKDividendsParametersCompanion, NSDKDividendsParameters, NSDKDividendEntity, NSDKNewtonApiClient, NSDKDividendsRepositoryImplCompanion, NSDKDividendsResponseCompanion, NSDKDividendsResponse, NSDKDividendsResponseSerializer, NSDKDividendEntityCompanion, NSDKBondDataCompanion, NSDKBondData, NSDKKotlinEnumCompanion, NSDKKotlinEnum<E>, NSDKCandlesTimeGranularityCompanion, NSDKCandlesTimeGranularity, NSDKKotlinArray<T>, NSDKHistoryMarketDataCandleEntity, NSDKTimeGranularity, NSDKHistoryMarketDataEntity, NSDKMarketDataEntity, NSDKHistoryMarketDataCandleEntityCompanion, NSDKHistoryMarketDataEntityCompanion, NSDKIndexDataCompanion, NSDKIndexData, NSDKStaticParams, NSDKMarketDataEntityCompanion, NSDKStaticParamsCompanion, NSDKTimeGranularityCompanion, NSDKHistoryMarketDataCandlesParametersCompanion, NSDKHistoryMarketDataCandlesResponseCompanion, NSDKHistoryMarketDataCandlesResponse, NSDKHistoryMarketDataParametersCompanion, NSDKHistoryMarketDataRepositoryImplCompanion, NSDKInstrumentMarketDataEntity, NSDKHistoryMarketDataResponseCompanion, NSDKHistoryMarketDataResponse, NSDKInstrumentMarketDataEntityCompanion, NSDKInstrumentMarketDataEntitySerializer, NSDKMarketDataInstrumentKeyCompanion, NSDKMarketDataInstrumentKey, NSDKMarketDataSearchParameters, NSDKMarketDataParametersCompanion, NSDKMarketDataParameters, NSDKMarketDataRepositoryImplCompanion, NSDKMarketDataResponseResult, NSDKMarketDataResponseCompanion, NSDKMarketDataResponse, NSDKMarketDataResponseResultEntity, NSDKMarketDataResponseResultError, NSDKMarketDataResponseResultCompanion, NSDKMarketDataResponseResultEntityCompanion, NSDKMarketDataResponseResultErrorCompanion, NSDKMarketDataSearchParametersCompanion, NSDKNewtonApiClientConfig, NSDKKtor_client_coreHttpClient, NSDKNewtonApiClientConfigCompanion, NSDKKotlinThrowable, NSDKKotlinException, NSDKNewtonApiErrorCode, NSDKCurrencyCompanion, NSDKInstrumentTypeCompanion, NSDKKotlinRuntimeException, NSDKKotlinIllegalStateException, NSDKKotlinx_serialization_coreSerializersModule, NSDKKotlinx_serialization_coreSerialKind, NSDKKotlinNothing, NSDKKtor_client_coreHttpClientEngineConfig, NSDKKtor_client_coreHttpClientConfig<T>, NSDKKtor_client_coreHttpRequestBuilder, NSDKKtor_client_coreHttpClientCall, NSDKKotlinx_coroutines_coreCoroutineDispatcher, NSDKKtor_client_coreHttpReceivePipeline, NSDKKtor_client_coreHttpRequestPipeline, NSDKKtor_client_coreHttpResponsePipeline, NSDKKtor_client_coreHttpSendPipeline, NSDKKtor_client_coreHttpRequestData, NSDKKtor_client_coreHttpResponseData, NSDKKtor_client_coreProxyConfig, NSDKKtor_httpHeadersBuilder, NSDKKtor_client_coreHttpRequestBuilderCompanion, NSDKKtor_httpURLBuilder, NSDKKtor_httpHttpMethod, NSDKKtor_client_coreHttpClientCallCompanion, NSDKKtor_client_coreTypeInfo, NSDKKtor_client_coreHttpResponse, NSDKKtor_utilsAttributeKey<T>, NSDKKotlinAbstractCoroutineContextElement, NSDKKotlinx_coroutines_coreCoroutineDispatcherKey, NSDKKtor_utilsPipelinePhase, NSDKKtor_utilsPipeline<TSubject, TContext>, NSDKKtor_client_coreHttpReceivePipelinePhases, NSDKKtor_client_coreHttpRequestPipelinePhases, NSDKKtor_client_coreHttpResponsePipelinePhases, NSDKKtor_client_coreHttpResponseContainer, NSDKKtor_client_coreHttpSendPipelinePhases, NSDKKtor_httpUrl, NSDKKtor_httpOutgoingContent, NSDKKtor_httpHttpStatusCode, NSDKKtor_utilsGMTDate, NSDKKtor_httpHttpProtocolVersion, NSDKKtor_utilsStringValuesBuilder, NSDKKtor_httpURLProtocol, NSDKKtor_httpParametersBuilder, NSDKKtor_httpURLBuilderCompanion, NSDKKotlinCancellationException, NSDKKotlinUnit, NSDKKtor_httpHttpMethodCompanion, NSDKKtor_ioMemory, NSDKKtor_ioIoBuffer, NSDKKotlinByteArray, NSDKKtor_ioByteReadPacket, NSDKKtor_ioByteOrder, NSDKKotlinAbstractCoroutineContextKey<B, E>, NSDKKtor_httpUrlCompanion, NSDKKtor_httpContentType, NSDKKtor_httpHttpStatusCodeCompanion, NSDKKtor_utilsGMTDateCompanion, NSDKKtor_utilsWeekDay, NSDKKtor_utilsMonth, NSDKKtor_httpHttpProtocolVersionCompanion, NSDKKtor_httpURLProtocolCompanion, NSDKKtor_httpUrlEncodingOption, NSDKKtor_ioMemoryCompanion, NSDKKtor_ioBufferCompanion, NSDKKtor_ioBuffer, NSDKKtor_ioChunkBuffer, NSDKKtor_ioChunkBufferCompanion, NSDKKotlinCharArray, NSDKKtor_ioIoBufferCompanion, NSDKKotlinByteIterator, NSDKKtor_ioAbstractInputCompanion, NSDKKtor_ioAbstractInput, NSDKKtor_ioByteReadPacketBaseCompanion, NSDKKtor_ioByteReadPacketBase, NSDKKtor_ioByteReadPacketPlatformBase, NSDKKtor_ioByteReadPacketCompanion, NSDKKtor_ioByteOrderCompanion, NSDKKotlinKTypeProjection, NSDKKtor_httpHeaderValueParam, NSDKKtor_httpHeaderValueWithParametersCompanion, NSDKKtor_httpHeaderValueWithParameters, NSDKKtor_httpContentTypeCompanion, NSDKKtor_utilsWeekDayCompanion, NSDKKtor_utilsMonthCompanion, NSDKKotlinx_coroutines_coreAtomicDesc, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, NSDKKotlinCharIterator, NSDKKotlinKVariance, NSDKKotlinKTypeProjectionCompanion, NSDKKotlinx_coroutines_coreAtomicOp<__contravariant T>, NSDKKotlinx_coroutines_coreOpDescriptor, NSDKKotlinx_coroutines_coreLockFreeLinkedListNode, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class NSDKOperationType, NSDKOperationStatus, NSDKOperationEntity, NSDKNewtonApiClient, NSDKOperationRepositoryImplCompanion, NSDKAccountType, NSDKCurrencyValue, NSDKOperationDealEntityCompanion, NSDKOperationDealEntity, NSDKOperationEntityCompanion, NSDKOperationEntitySerializer, NSDKInstrumentType, NSDKCurrency, NSDKOperationInstrumentEntityCompanion, NSDKOperationInstrumentEntity, NSDKOrderType, NSDKTradingOperationEntityCompanion, NSDKTradingOperationEntity, NSDKAccountEntity, NSDKPortfolioRepositoryImplCompanion, NSDKAttribute, NSDKAccountStatus, NSDKAccountEntityCompanion, NSDKDividendsDescriptorCompanion, NSDKDividendsDescriptor, NSDKDividendsParametersCompanion, NSDKDividendsParameters, NSDKDividendEntity, NSDKDividendsRepositoryImplCompanion, NSDKDividendsResponseCompanion, NSDKDividendsResponse, NSDKDividendsResponseSerializer, NSDKDividendEntityCompanion, NSDKGetDividendsByInstrumentIdUseCaseCompanion, NSDKBondDataCompanion, NSDKBondData, NSDKKotlinEnumCompanion, NSDKKotlinEnum<E>, NSDKCandlesTimeGranularityCompanion, NSDKCandlesTimeGranularity, NSDKKotlinArray<T>, NSDKHistoryMarketDataCandleEntity, NSDKTimeGranularity, NSDKHistoryMarketDataEntity, NSDKMarketDataEntity, NSDKHistoryMarketDataCandleEntityCompanion, NSDKHistoryMarketDataEntityCompanion, NSDKIndexDataCompanion, NSDKIndexData, NSDKStaticParams, NSDKMarketDataEntityCompanion, NSDKStaticParamsCompanion, NSDKTimeGranularityCompanion, NSDKHistoryMarketDataCandlesParametersCompanion, NSDKHistoryMarketDataCandlesResponseCompanion, NSDKHistoryMarketDataCandlesResponse, NSDKHistoryMarketDataParametersCompanion, NSDKHistoryMarketDataRepositoryImplCompanion, NSDKInstrumentMarketDataEntity, NSDKHistoryMarketDataResponseCompanion, NSDKHistoryMarketDataResponse, NSDKInstrumentMarketDataEntityCompanion, NSDKInstrumentMarketDataEntitySerializer, NSDKMarketDataInstrumentKeyCompanion, NSDKMarketDataInstrumentKey, NSDKMarketDataSearchParameters, NSDKMarketDataParametersCompanion, NSDKMarketDataParameters, NSDKMarketDataRepositoryImplCompanion, NSDKMarketDataResponseResult, NSDKMarketDataResponseCompanion, NSDKMarketDataResponse, NSDKMarketDataResponseResultEntity, NSDKMarketDataResponseResultError, NSDKMarketDataResponseResultCompanion, NSDKMarketDataResponseResultEntityCompanion, NSDKMarketDataResponseResultErrorCompanion, NSDKMarketDataSearchParametersCompanion, NSDKNewtonApiClientConfig, NSDKKtor_client_coreHttpClient, NSDKNewtonApiClientConfigCompanion, NSDKKotlinThrowable, NSDKKotlinException, NSDKNewtonApiErrorCode, NSDKCatalogInstrumentEntity, NSDKCatalogInstrumentEntityCompanion, NSDKBondAdditionalPublicOfferEntityCompanion, NSDKBondAdditionalPublicOfferEntity, NSDKCouponType, NSDKBondEntityCompanion, NSDKBondEntity, NSDKCatalogInstrumentEntitySerializer, NSDKCurrencyEntityCompanion, NSDKCurrencyEntity, NSDKFundEntityCompanion, NSDKFundEntity, NSDKIpoEntityCompanion, NSDKIpoEntity, NSDKStockEntityCompanion, NSDKStockEntity, NSDKCatalogRepositoryImplCompanion, NSDKAccountStatusCompanion, NSDKAccountTypeCompanion, NSDKAttributeCompanion, NSDKCouponTypeCompanion, NSDKCurrencyCompanion, NSDKCurrencyValueCompanion, NSDKInstrumentTypeCompanion, NSDKOperationStatusCompanion, NSDKOperationTypeCompanion, NSDKOrderTypeCompanion, NSDKKotlinRuntimeException, NSDKKotlinIllegalStateException, NSDKKotlinx_serialization_coreSerializersModule, NSDKKotlinx_serialization_coreSerialKind, NSDKKotlinNothing, NSDKKtor_client_coreHttpClientEngineConfig, NSDKKtor_client_coreHttpClientConfig<T>, NSDKKtor_client_coreHttpRequestBuilder, NSDKKtor_client_coreHttpClientCall, NSDKKotlinx_coroutines_coreCoroutineDispatcher, NSDKKtor_client_coreHttpReceivePipeline, NSDKKtor_client_coreHttpRequestPipeline, NSDKKtor_client_coreHttpResponsePipeline, NSDKKtor_client_coreHttpSendPipeline, NSDKKtor_client_coreHttpRequestData, NSDKKtor_client_coreHttpResponseData, NSDKKtor_client_coreProxyConfig, NSDKKtor_httpHeadersBuilder, NSDKKtor_client_coreHttpRequestBuilderCompanion, NSDKKtor_httpURLBuilder, NSDKKtor_httpHttpMethod, NSDKKtor_client_coreHttpClientCallCompanion, NSDKKtor_client_coreTypeInfo, NSDKKtor_client_coreHttpResponse, NSDKKtor_utilsAttributeKey<T>, NSDKKotlinAbstractCoroutineContextElement, NSDKKotlinx_coroutines_coreCoroutineDispatcherKey, NSDKKtor_utilsPipelinePhase, NSDKKtor_utilsPipeline<TSubject, TContext>, NSDKKtor_client_coreHttpReceivePipelinePhases, NSDKKtor_client_coreHttpRequestPipelinePhases, NSDKKtor_client_coreHttpResponsePipelinePhases, NSDKKtor_client_coreHttpResponseContainer, NSDKKtor_client_coreHttpSendPipelinePhases, NSDKKtor_httpUrl, NSDKKtor_httpOutgoingContent, NSDKKtor_httpHttpStatusCode, NSDKKtor_utilsGMTDate, NSDKKtor_httpHttpProtocolVersion, NSDKKtor_utilsStringValuesBuilder, NSDKKtor_httpURLProtocol, NSDKKtor_httpParametersBuilder, NSDKKtor_httpURLBuilderCompanion, NSDKKotlinCancellationException, NSDKKotlinUnit, NSDKKtor_httpHttpMethodCompanion, NSDKKtor_ioMemory, NSDKKtor_ioIoBuffer, NSDKKotlinByteArray, NSDKKtor_ioByteReadPacket, NSDKKtor_ioByteOrder, NSDKKotlinAbstractCoroutineContextKey<B, E>, NSDKKtor_httpUrlCompanion, NSDKKtor_httpContentType, NSDKKtor_httpHttpStatusCodeCompanion, NSDKKtor_utilsGMTDateCompanion, NSDKKtor_utilsWeekDay, NSDKKtor_utilsMonth, NSDKKtor_httpHttpProtocolVersionCompanion, NSDKKtor_httpURLProtocolCompanion, NSDKKtor_httpUrlEncodingOption, NSDKKtor_ioMemoryCompanion, NSDKKtor_ioBufferCompanion, NSDKKtor_ioBuffer, NSDKKtor_ioChunkBuffer, NSDKKtor_ioChunkBufferCompanion, NSDKKotlinCharArray, NSDKKtor_ioIoBufferCompanion, NSDKKotlinByteIterator, NSDKKtor_ioAbstractInputCompanion, NSDKKtor_ioAbstractInput, NSDKKtor_ioByteReadPacketBaseCompanion, NSDKKtor_ioByteReadPacketBase, NSDKKtor_ioByteReadPacketPlatformBase, NSDKKtor_ioByteReadPacketCompanion, NSDKKtor_ioByteOrderCompanion, NSDKKotlinKTypeProjection, NSDKKtor_httpHeaderValueParam, NSDKKtor_httpHeaderValueWithParametersCompanion, NSDKKtor_httpHeaderValueWithParameters, NSDKKtor_httpContentTypeCompanion, NSDKKtor_utilsWeekDayCompanion, NSDKKtor_utilsMonthCompanion, NSDKKotlinx_coroutines_coreAtomicDesc, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, NSDKKotlinCharIterator, NSDKKotlinKVariance, NSDKKotlinKTypeProjectionCompanion, NSDKKotlinx_coroutines_coreAtomicOp<__contravariant T>, NSDKKotlinx_coroutines_coreOpDescriptor, NSDKKotlinx_coroutines_coreLockFreeLinkedListNode, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, NSDKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol NSDKKotlinx_serialization_coreKSerializer, NSDKDividendsRepository, NSDKKotlinx_serialization_coreEncoder, NSDKKotlinx_serialization_coreSerialDescriptor, NSDKKotlinx_serialization_coreSerializationStrategy, NSDKKotlinx_serialization_coreDecoder, NSDKKotlinx_serialization_coreDeserializationStrategy, NSDKKotlinComparable, NSDKHistoryMarketDataRepository, NSDKMarketDataRepository, NSDKKotlinx_serialization_coreCompositeEncoder, NSDKKotlinAnnotation, NSDKKotlinx_serialization_coreCompositeDecoder, NSDKKotlinIterator, NSDKKotlinCoroutineContext, NSDKKotlinx_coroutines_coreCoroutineScope, NSDKKtor_ioCloseable, NSDKKtor_client_coreHttpClientEngine, NSDKKtor_client_coreHttpClientEngineCapability, NSDKKtor_utilsAttributes, NSDKKotlinx_serialization_coreSerializersModuleCollector, NSDKKotlinKClass, NSDKKotlinCoroutineContextElement, NSDKKotlinCoroutineContextKey, NSDKKtor_client_coreHttpClientFeature, NSDKKtor_httpHttpMessageBuilder, NSDKKotlinx_coroutines_coreJob, NSDKKtor_ioByteReadChannel, NSDKKtor_utilsTypeInfo, NSDKKtor_client_coreHttpRequest, NSDKKotlinContinuation, NSDKKotlinContinuationInterceptor, NSDKKotlinx_coroutines_coreRunnable, NSDKKotlinSuspendFunction2, NSDKKotlinKDeclarationContainer, NSDKKotlinKAnnotatedElement, NSDKKotlinKClassifier, NSDKKtor_httpHeaders, NSDKKtor_utilsStringValues, NSDKKotlinMapEntry, NSDKKotlinx_coroutines_coreChildHandle, NSDKKotlinx_coroutines_coreChildJob, NSDKKotlinx_coroutines_coreDisposableHandle, NSDKKotlinSequence, NSDKKotlinx_coroutines_coreSelectClause0, NSDKKtor_ioReadSession, NSDKKotlinSuspendFunction1, NSDKKotlinAppendable, NSDKKotlinKType, NSDKKtor_httpHttpMessage, NSDKKotlinFunction, NSDKKtor_httpParameters, NSDKKotlinx_coroutines_coreParentJob, NSDKKotlinx_coroutines_coreSelectInstance, NSDKKotlinSuspendFunction0, NSDKKtor_ioObjectPool, NSDKKtor_ioInput, NSDKKtor_ioOutput;
+@protocol NSDKIAccountDescriptor, NSDKOperationRepository, NSDKKotlinx_serialization_coreKSerializer, NSDKKotlinx_serialization_coreEncoder, NSDKKotlinx_serialization_coreSerialDescriptor, NSDKKotlinx_serialization_coreSerializationStrategy, NSDKKotlinx_serialization_coreDecoder, NSDKKotlinx_serialization_coreDeserializationStrategy, NSDKPortfolioRepository, NSDKDividendsRepository, NSDKCatalogRepository, NSDKKotlinComparable, NSDKHistoryMarketDataRepository, NSDKMarketDataRepository, NSDKKotlinx_serialization_coreCompositeEncoder, NSDKKotlinAnnotation, NSDKKotlinx_serialization_coreCompositeDecoder, NSDKKotlinIterator, NSDKKotlinCoroutineContext, NSDKKotlinx_coroutines_coreCoroutineScope, NSDKKtor_ioCloseable, NSDKKtor_client_coreHttpClientEngine, NSDKKtor_client_coreHttpClientEngineCapability, NSDKKtor_utilsAttributes, NSDKKotlinx_serialization_coreSerializersModuleCollector, NSDKKotlinKClass, NSDKKotlinCoroutineContextElement, NSDKKotlinCoroutineContextKey, NSDKKtor_client_coreHttpClientFeature, NSDKKtor_httpHttpMessageBuilder, NSDKKotlinx_coroutines_coreJob, NSDKKtor_ioByteReadChannel, NSDKKtor_utilsTypeInfo, NSDKKtor_client_coreHttpRequest, NSDKKotlinContinuation, NSDKKotlinContinuationInterceptor, NSDKKotlinx_coroutines_coreRunnable, NSDKKotlinSuspendFunction2, NSDKKotlinKDeclarationContainer, NSDKKotlinKAnnotatedElement, NSDKKotlinKClassifier, NSDKKtor_httpHeaders, NSDKKtor_utilsStringValues, NSDKKotlinMapEntry, NSDKKotlinx_coroutines_coreChildHandle, NSDKKotlinx_coroutines_coreChildJob, NSDKKotlinx_coroutines_coreDisposableHandle, NSDKKotlinSequence, NSDKKotlinx_coroutines_coreSelectClause0, NSDKKtor_ioReadSession, NSDKKotlinSuspendFunction1, NSDKKotlinAppendable, NSDKKotlinKType, NSDKKtor_httpHttpMessage, NSDKKotlinFunction, NSDKKtor_httpParameters, NSDKKotlinx_coroutines_coreParentJob, NSDKKotlinx_coroutines_coreSelectInstance, NSDKKotlinSuspendFunction0, NSDKKtor_ioObjectPool, NSDKKtor_ioInput, NSDKKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,6 +144,342 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end;
 
+__attribute__((swift_name("OperationRepository")))
+@protocol NSDKOperationRepository
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getOperationHistoryAccounts:(NSArray<id<NSDKIAccountDescriptor>> *)accounts instrumentIds:(NSArray<NSDKLong *> * _Nullable)instrumentIds type:(NSArray<NSDKOperationType *> * _Nullable)type status:(NSArray<NSDKOperationStatus *> * _Nullable)status limit:(NSDKInt * _Nullable)limit timeStart:(NSDKLong * _Nullable)timeStart timeEnd:(NSDKLong * _Nullable)timeEnd completionHandler:(void (^)(NSArray<NSDKOperationEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOperationHistory(accounts:instrumentIds:type:status:limit:timeStart:timeEnd:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationRepositoryImpl")))
+@interface NSDKOperationRepositoryImpl : NSDKBase <NSDKOperationRepository>
+- (instancetype)initWithApiClient:(NSDKNewtonApiClient *)apiClient __attribute__((swift_name("init(apiClient:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKOperationRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getOperationHistoryAccounts:(NSArray<id<NSDKIAccountDescriptor>> *)accounts instrumentIds:(NSArray<NSDKLong *> * _Nullable)instrumentIds type:(NSArray<NSDKOperationType *> * _Nullable)type status:(NSArray<NSDKOperationStatus *> * _Nullable)status limit:(NSDKInt * _Nullable)limit timeStart:(NSDKLong * _Nullable)timeStart timeEnd:(NSDKLong * _Nullable)timeEnd completionHandler:(void (^)(NSArray<NSDKOperationEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOperationHistory(accounts:instrumentIds:type:status:limit:timeStart:timeEnd:completionHandler:)")));
+@property (readonly) NSDKNewtonApiClient *apiClient __attribute__((swift_name("apiClient")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationRepositoryImpl.Companion")))
+@interface NSDKOperationRepositoryImplCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationRepositoryImplCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetOperationHistoryUseCase")))
+@interface NSDKGetOperationHistoryUseCase : NSDKBase
+- (instancetype)initWithRepository:(id<NSDKOperationRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeAccounts:(NSArray<id<NSDKIAccountDescriptor>> *)accounts instrumentIds:(NSArray<NSDKLong *> * _Nullable)instrumentIds type:(NSArray<NSDKOperationType *> * _Nullable)type status:(NSArray<NSDKOperationStatus *> * _Nullable)status limit:(NSDKInt * _Nullable)limit timeStart:(NSDKLong * _Nullable)timeStart timeEnd:(NSDKLong * _Nullable)timeEnd completionHandler:(void (^)(NSArray<NSDKOperationEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(accounts:instrumentIds:type:status:limit:timeStart:timeEnd:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("IAccountDescriptor")))
+@protocol NSDKIAccountDescriptor
+@required
+@property (readonly) NSString *accountId __attribute__((swift_name("accountId")));
+@property (readonly) NSDKAccountType *accountType __attribute__((swift_name("accountType")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationDealEntity")))
+@interface NSDKOperationDealEntity : NSDKBase
+- (instancetype)initWithId:(int64_t)id instrumentPrice:(NSDKCurrencyValue *)instrumentPrice instrumentCount:(double)instrumentCount totalSum:(NSDKCurrencyValue *)totalSum commission:(NSDKCurrencyValue *)commission exchangeTradeId:(NSString *)exchangeTradeId createdAt:(int64_t)createdAt __attribute__((swift_name("init(id:instrumentPrice:instrumentCount:totalSum:commission:exchangeTradeId:createdAt:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKOperationDealEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrencyValue *)component2 __attribute__((swift_name("component2()")));
+- (double)component3 __attribute__((swift_name("component3()")));
+- (NSDKCurrencyValue *)component4 __attribute__((swift_name("component4()")));
+- (NSDKCurrencyValue *)component5 __attribute__((swift_name("component5()")));
+- (NSString *)component6 __attribute__((swift_name("component6()")));
+- (int64_t)component7 __attribute__((swift_name("component7()")));
+- (NSDKOperationDealEntity *)doCopyId:(int64_t)id instrumentPrice:(NSDKCurrencyValue *)instrumentPrice instrumentCount:(double)instrumentCount totalSum:(NSDKCurrencyValue *)totalSum commission:(NSDKCurrencyValue *)commission exchangeTradeId:(NSString *)exchangeTradeId createdAt:(int64_t)createdAt __attribute__((swift_name("doCopy(id:instrumentPrice:instrumentCount:totalSum:commission:exchangeTradeId:createdAt:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDKCurrencyValue *commission __attribute__((swift_name("commission")));
+@property (readonly) int64_t createdAt __attribute__((swift_name("createdAt")));
+@property (readonly) NSString *exchangeTradeId __attribute__((swift_name("exchangeTradeId")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) double instrumentCount __attribute__((swift_name("instrumentCount")));
+@property (readonly) NSDKCurrencyValue *instrumentPrice __attribute__((swift_name("instrumentPrice")));
+@property (readonly) NSDKCurrencyValue *totalSum __attribute__((swift_name("totalSum")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationDealEntity.Companion")))
+@interface NSDKOperationDealEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationDealEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((swift_name("OperationEntity")))
+@interface NSDKOperationEntity : NSDKBase
+@property (class, readonly, getter=companion) NSDKOperationEntityCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *accountId __attribute__((swift_name("accountId")));
+@property (readonly) NSDKAccountType *accountType __attribute__((swift_name("accountType")));
+@property (readonly) int64_t createdAt __attribute__((swift_name("createdAt")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSDKOperationStatus *status __attribute__((swift_name("status")));
+@property (readonly) NSDKOperationType *type __attribute__((swift_name("type")));
+@property (readonly) int64_t updatedAt __attribute__((swift_name("updatedAt")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationEntity.Companion")))
+@interface NSDKOperationEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol NSDKKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<NSDKKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol NSDKKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<NSDKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol NSDKKotlinx_serialization_coreKSerializer <NSDKKotlinx_serialization_coreSerializationStrategy, NSDKKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationEntitySerializer")))
+@interface NSDKOperationEntitySerializer : NSDKBase <NSDKKotlinx_serialization_coreKSerializer>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)operationEntitySerializer __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationEntitySerializer *shared __attribute__((swift_name("shared")));
+- (NSDKOperationEntity *)deserializeDecoder:(id<NSDKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<NSDKKotlinx_serialization_coreEncoder>)encoder value:(NSDKOperationEntity *)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationInstrumentEntity")))
+@interface NSDKOperationInstrumentEntity : NSDKBase
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type ticker:(NSString *)ticker isin:(NSString * _Nullable)isin faceUnit:(NSDKCurrency * _Nullable)faceUnit name:(NSString * _Nullable)name logoSrc:(NSString * _Nullable)logoSrc __attribute__((swift_name("init(id:type:ticker:isin:faceUnit:name:logoSrc:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKOperationInstrumentEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSDKCurrency * _Nullable)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKOperationInstrumentEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type ticker:(NSString *)ticker isin:(NSString * _Nullable)isin faceUnit:(NSDKCurrency * _Nullable)faceUnit name:(NSString * _Nullable)name logoSrc:(NSString * _Nullable)logoSrc __attribute__((swift_name("doCopy(id:type:ticker:isin:faceUnit:name:logoSrc:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationInstrumentEntity.Companion")))
+@interface NSDKOperationInstrumentEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationInstrumentEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TradingOperationEntity")))
+@interface NSDKTradingOperationEntity : NSDKOperationEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKOperationType *)type status:(NSDKOperationStatus *)status accountId:(NSString *)accountId accountType:(NSDKAccountType *)accountType createdAt:(int64_t)createdAt updatedAt:(int64_t)updatedAt orderId:(NSString * _Nullable)orderId orderType:(NSDKOrderType * _Nullable)orderType instrument:(NSDKOperationInstrumentEntity * _Nullable)instrument instrumentCountActual:(double)instrumentCountActual instrumentCountForecast:(double)instrumentCountForecast instrumentPriceActual:(NSDKCurrencyValue * _Nullable)instrumentPriceActual instrumentPriceForecast:(NSDKCurrencyValue * _Nullable)instrumentPriceForecast dealsCount:(int32_t)dealsCount deals:(NSArray<NSDKOperationDealEntity *> *)deals totalSumActual:(NSDKCurrencyValue * _Nullable)totalSumActual totalSumAccruedInterestActual:(NSDKCurrencyValue * _Nullable)totalSumAccruedInterestActual commissionActual:(NSDKCurrencyValue * _Nullable)commissionActual commissionForecast:(NSDKCurrencyValue * _Nullable)commissionForecast __attribute__((swift_name("init(id:type:status:accountId:accountType:createdAt:updatedAt:orderId:orderType:instrument:instrumentCountActual:instrumentCountForecast:instrumentPriceActual:instrumentPriceForecast:dealsCount:deals:totalSumActual:totalSumAccruedInterestActual:commissionActual:commissionForecast:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKTradingOperationEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKOperationInstrumentEntity * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (double)component11 __attribute__((swift_name("component11()")));
+- (double)component12 __attribute__((swift_name("component12()")));
+- (NSDKCurrencyValue * _Nullable)component13 __attribute__((swift_name("component13()")));
+- (NSDKCurrencyValue * _Nullable)component14 __attribute__((swift_name("component14()")));
+- (int32_t)component15 __attribute__((swift_name("component15()")));
+- (NSArray<NSDKOperationDealEntity *> *)component16 __attribute__((swift_name("component16()")));
+- (NSDKCurrencyValue * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSDKCurrencyValue * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSDKCurrencyValue * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKOperationType *)component2 __attribute__((swift_name("component2()")));
+- (NSDKCurrencyValue * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSDKOperationStatus *)component3 __attribute__((swift_name("component3()")));
+- (NSString *)component4 __attribute__((swift_name("component4()")));
+- (NSDKAccountType *)component5 __attribute__((swift_name("component5()")));
+- (int64_t)component6 __attribute__((swift_name("component6()")));
+- (int64_t)component7 __attribute__((swift_name("component7()")));
+- (NSString * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKOrderType * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKTradingOperationEntity *)doCopyId:(int64_t)id type:(NSDKOperationType *)type status:(NSDKOperationStatus *)status accountId:(NSString *)accountId accountType:(NSDKAccountType *)accountType createdAt:(int64_t)createdAt updatedAt:(int64_t)updatedAt orderId:(NSString * _Nullable)orderId orderType:(NSDKOrderType * _Nullable)orderType instrument:(NSDKOperationInstrumentEntity * _Nullable)instrument instrumentCountActual:(double)instrumentCountActual instrumentCountForecast:(double)instrumentCountForecast instrumentPriceActual:(NSDKCurrencyValue * _Nullable)instrumentPriceActual instrumentPriceForecast:(NSDKCurrencyValue * _Nullable)instrumentPriceForecast dealsCount:(int32_t)dealsCount deals:(NSArray<NSDKOperationDealEntity *> *)deals totalSumActual:(NSDKCurrencyValue * _Nullable)totalSumActual totalSumAccruedInterestActual:(NSDKCurrencyValue * _Nullable)totalSumAccruedInterestActual commissionActual:(NSDKCurrencyValue * _Nullable)commissionActual commissionForecast:(NSDKCurrencyValue * _Nullable)commissionForecast __attribute__((swift_name("doCopy(id:type:status:accountId:accountType:createdAt:updatedAt:orderId:orderType:instrument:instrumentCountActual:instrumentCountForecast:instrumentPriceActual:instrumentPriceForecast:dealsCount:deals:totalSumActual:totalSumAccruedInterestActual:commissionActual:commissionForecast:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *accountId __attribute__((swift_name("accountId")));
+@property (readonly) NSDKAccountType *accountType __attribute__((swift_name("accountType")));
+@property (readonly) NSDKCurrencyValue * _Nullable commissionActual __attribute__((swift_name("commissionActual")));
+@property (readonly) NSDKCurrencyValue * _Nullable commissionForecast __attribute__((swift_name("commissionForecast")));
+@property (readonly) int64_t createdAt __attribute__((swift_name("createdAt")));
+@property (readonly) NSArray<NSDKOperationDealEntity *> *deals __attribute__((swift_name("deals")));
+@property (readonly) int32_t dealsCount __attribute__((swift_name("dealsCount")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSDKOperationInstrumentEntity * _Nullable instrument __attribute__((swift_name("instrument")));
+@property (readonly) double instrumentCountActual __attribute__((swift_name("instrumentCountActual")));
+@property (readonly) double instrumentCountForecast __attribute__((swift_name("instrumentCountForecast")));
+@property (readonly) NSDKCurrencyValue * _Nullable instrumentPriceActual __attribute__((swift_name("instrumentPriceActual")));
+@property (readonly) NSDKCurrencyValue * _Nullable instrumentPriceForecast __attribute__((swift_name("instrumentPriceForecast")));
+@property (readonly) NSString * _Nullable orderId __attribute__((swift_name("orderId")));
+@property (readonly) NSDKOrderType * _Nullable orderType __attribute__((swift_name("orderType")));
+@property (readonly) NSDKOperationStatus *status __attribute__((swift_name("status")));
+@property (readonly) NSDKCurrencyValue * _Nullable totalSumAccruedInterestActual __attribute__((swift_name("totalSumAccruedInterestActual")));
+@property (readonly) NSDKCurrencyValue * _Nullable totalSumActual __attribute__((swift_name("totalSumActual")));
+@property (readonly) NSDKOperationType *type __attribute__((swift_name("type")));
+@property (readonly) int64_t updatedAt __attribute__((swift_name("updatedAt")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TradingOperationEntity.Companion")))
+@interface NSDKTradingOperationEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKTradingOperationEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((swift_name("PortfolioRepository")))
+@protocol NSDKPortfolioRepository
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getPortfolioTypes:(NSArray<NSDKAccountType *> *)types yieldCalculationDateFrom:(NSString * _Nullable)yieldCalculationDateFrom withoutYield:(NSDKBoolean * _Nullable)withoutYield completionHandler:(void (^)(NSArray<NSDKAccountEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPortfolio(types:yieldCalculationDateFrom:withoutYield:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PortfolioRepositoryImpl")))
+@interface NSDKPortfolioRepositoryImpl : NSDKBase <NSDKPortfolioRepository>
+- (instancetype)initWithApiClient:(NSDKNewtonApiClient *)apiClient __attribute__((swift_name("init(apiClient:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKPortfolioRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getPortfolioTypes:(NSArray<NSDKAccountType *> *)types yieldCalculationDateFrom:(NSString * _Nullable)yieldCalculationDateFrom withoutYield:(NSDKBoolean * _Nullable)withoutYield completionHandler:(void (^)(NSArray<NSDKAccountEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPortfolio(types:yieldCalculationDateFrom:withoutYield:completionHandler:)")));
+@property (readonly) NSDKNewtonApiClient *apiClient __attribute__((swift_name("apiClient")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PortfolioRepositoryImpl.Companion")))
+@interface NSDKPortfolioRepositoryImplCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKPortfolioRepositoryImplCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *API_PATH_PORTFOLIO __attribute__((swift_name("API_PATH_PORTFOLIO")));
+@property (readonly) NSString *DEFAULT_YIELD_CALCULATION_DATE_FROM __attribute__((swift_name("DEFAULT_YIELD_CALCULATION_DATE_FROM")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountEntity")))
+@interface NSDKAccountEntity : NSDKBase
+- (instancetype)initWithAttributes:(NSArray<NSDKAttribute *> *)attributes id:(NSString *)id name:(NSString *)name type:(NSDKAccountType *)type iia:(BOOL)iia status:(NSDKAccountStatus *)status selected:(BOOL)selected yearRefillValue:(NSDKDouble * _Nullable)yearRefillValue yearRefillLimit:(NSDKDouble * _Nullable)yearRefillLimit createdAt:(int64_t)createdAt gracePeriodEndedAt:(NSDKLong * _Nullable)gracePeriodEndedAt valuation:(NSArray<NSDKCurrencyValue *> *)valuation expectedNetProfit:(NSArray<NSDKCurrencyValue *> *)expectedNetProfit expectedYield:(NSArray<NSDKCurrencyValue *> *)expectedYield noActivity:(BOOL)noActivity __attribute__((swift_name("init(attributes:id:name:type:iia:status:selected:yearRefillValue:yearRefillLimit:createdAt:gracePeriodEndedAt:valuation:expectedNetProfit:expectedYield:noActivity:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKAccountEntityCompanion *companion __attribute__((swift_name("companion")));
+- (NSArray<NSDKAttribute *> *)component1 __attribute__((swift_name("component1()")));
+- (int64_t)component10 __attribute__((swift_name("component10()")));
+- (NSDKLong * _Nullable)component11 __attribute__((swift_name("component11()")));
+- (NSArray<NSDKCurrencyValue *> *)component12 __attribute__((swift_name("component12()")));
+- (NSArray<NSDKCurrencyValue *> *)component13 __attribute__((swift_name("component13()")));
+- (NSArray<NSDKCurrencyValue *> *)component14 __attribute__((swift_name("component14()")));
+- (BOOL)component15 __attribute__((swift_name("component15()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component3 __attribute__((swift_name("component3()")));
+- (NSDKAccountType *)component4 __attribute__((swift_name("component4()")));
+- (BOOL)component5 __attribute__((swift_name("component5()")));
+- (NSDKAccountStatus *)component6 __attribute__((swift_name("component6()")));
+- (BOOL)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKAccountEntity *)doCopyAttributes:(NSArray<NSDKAttribute *> *)attributes id:(NSString *)id name:(NSString *)name type:(NSDKAccountType *)type iia:(BOOL)iia status:(NSDKAccountStatus *)status selected:(BOOL)selected yearRefillValue:(NSDKDouble * _Nullable)yearRefillValue yearRefillLimit:(NSDKDouble * _Nullable)yearRefillLimit createdAt:(int64_t)createdAt gracePeriodEndedAt:(NSDKLong * _Nullable)gracePeriodEndedAt valuation:(NSArray<NSDKCurrencyValue *> *)valuation expectedNetProfit:(NSArray<NSDKCurrencyValue *> *)expectedNetProfit expectedYield:(NSArray<NSDKCurrencyValue *> *)expectedYield noActivity:(BOOL)noActivity __attribute__((swift_name("doCopy(attributes:id:name:type:iia:status:selected:yearRefillValue:yearRefillLimit:createdAt:gracePeriodEndedAt:valuation:expectedNetProfit:expectedYield:noActivity:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<NSDKAttribute *> *attributes __attribute__((swift_name("attributes")));
+@property (readonly) int64_t createdAt __attribute__((swift_name("createdAt")));
+@property (readonly) NSArray<NSDKCurrencyValue *> *expectedNetProfit __attribute__((swift_name("expectedNetProfit")));
+@property (readonly) NSArray<NSDKCurrencyValue *> *expectedYield __attribute__((swift_name("expectedYield")));
+@property (readonly) NSDKLong * _Nullable gracePeriodEndedAt __attribute__((swift_name("gracePeriodEndedAt")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL iia __attribute__((swift_name("iia")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) BOOL noActivity __attribute__((swift_name("noActivity")));
+@property (readonly) BOOL selected __attribute__((swift_name("selected")));
+@property (readonly) NSDKAccountStatus *status __attribute__((swift_name("status")));
+@property (readonly) NSDKAccountType *type __attribute__((swift_name("type")));
+@property (readonly) NSArray<NSDKCurrencyValue *> *valuation __attribute__((swift_name("valuation")));
+@property (readonly) NSDKDouble * _Nullable yearRefillLimit __attribute__((swift_name("yearRefillLimit")));
+@property (readonly) NSDKDouble * _Nullable yearRefillValue __attribute__((swift_name("yearRefillValue")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountEntity.Companion")))
+@interface NSDKAccountEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKAccountEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetPortfolioUseCase")))
+@interface NSDKGetPortfolioUseCase : NSDKBase
+- (instancetype)initWithRepository:(id<NSDKPortfolioRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeTypes:(NSArray<NSDKAccountType *> *)types yieldCalculationDateFrom:(NSString * _Nullable)yieldCalculationDateFrom withoutYield:(NSDKBoolean * _Nullable)withoutYield completionHandler:(void (^)(NSArray<NSDKAccountEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(types:yieldCalculationDateFrom:withoutYield:completionHandler:)")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DividendsDescriptor")))
 @interface NSDKDividendsDescriptor : NSDKBase
@@ -206,7 +542,7 @@ __attribute__((swift_name("DividendsRepository")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("API will be changed soon")));
+- (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("API will be changed")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -219,7 +555,7 @@ __attribute__((swift_name("DividendsRepositoryImpl")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("Overrides deprecated member in 'io.nwtn.dividends.domain.DividendsRepository'. API will be changed soon")));
+- (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("Overrides deprecated member in 'io.nwtn.dividends.domain.DividendsRepository'. API will be changed")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -252,25 +588,6 @@ __attribute__((swift_name("DividendsResponse.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) NSDKDividendsResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol NSDKKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<NSDKKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol NSDKKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<NSDKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol NSDKKotlinx_serialization_coreKSerializer <NSDKKotlinx_serialization_coreSerializationStrategy, NSDKKotlinx_serialization_coreDeserializationStrategy>
-@required
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -320,6 +637,29 @@ __attribute__((swift_name("DividendEntity.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) NSDKDividendEntityCompanion *shared __attribute__((swift_name("shared")));
 - (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetDividendsByInstrumentIdUseCase")))
+@interface NSDKGetDividendsByInstrumentIdUseCase : NSDKBase
+- (instancetype)initWithDividendsRepository:(id<NSDKDividendsRepository>)dividendsRepository catalogRepository:(id<NSDKCatalogRepository>)catalogRepository __attribute__((swift_name("init(dividendsRepository:catalogRepository:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKGetDividendsByInstrumentIdUseCaseCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeInstrumentId:(int64_t)instrumentId yearsCount:(NSDKInt * _Nullable)yearsCount completionHandler:(void (^)(NSArray<NSDKDividendEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(instrumentId:yearsCount:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetDividendsByInstrumentIdUseCase.Companion")))
+@interface NSDKGetDividendsByInstrumentIdUseCaseCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKGetDividendsByInstrumentIdUseCaseCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t YEARS_COUNT __attribute__((swift_name("YEARS_COUNT")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1168,6 +1508,640 @@ __attribute__((swift_name("NewtonApiErrorCode")))
 + (NSDKKotlinArray<NSDKNewtonApiErrorCode *> *)values __attribute__((swift_name("values()")));
 @end;
 
+__attribute__((swift_name("CatalogRepository")))
+@protocol NSDKCatalogRepository
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getCatalogInstrumentId:(int64_t)id completionHandler:(void (^)(NSDKCatalogInstrumentEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCatalogInstrument(id:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetCatalogInstrumentUseCase")))
+@interface NSDKGetCatalogInstrumentUseCase : NSDKBase
+- (instancetype)initWithRepository:(id<NSDKCatalogRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeInstrumentId:(int64_t)instrumentId completionHandler:(void (^)(NSDKCatalogInstrumentEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(instrumentId:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("CatalogInstrumentEntity")))
+@interface NSDKCatalogInstrumentEntity : NSDKBase
+@property (class, readonly, getter=companion) NSDKCatalogInstrumentEntityCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BondAdditionalPublicOfferEntity")))
+@interface NSDKBondAdditionalPublicOfferEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl primaryInstrumentId:(int64_t)primaryInstrumentId openingAt:(int64_t)openingAt closingAt:(int64_t)closingAt actualClosedAt:(NSDKLong * _Nullable)actualClosedAt title:(NSString *)title issueSize:(NSString * _Nullable)issueSize termsOfPlacement:(NSString * _Nullable)termsOfPlacement pricePerItem:(double)pricePerItem yield:(double)yield yieldToOffer:(NSDKDouble * _Nullable)yieldToOffer minBuyLotCount:(int64_t)minBuyLotCount __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:primaryInstrumentId:openingAt:closingAt:actualClosedAt:title:issueSize:termsOfPlacement:pricePerItem:yield:yieldToOffer:minBuyLotCount:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKBondAdditionalPublicOfferEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (int64_t)component22 __attribute__((swift_name("component22()")));
+- (int64_t)component23 __attribute__((swift_name("component23()")));
+- (int64_t)component24 __attribute__((swift_name("component24()")));
+- (NSDKLong * _Nullable)component25 __attribute__((swift_name("component25()")));
+- (NSString *)component26 __attribute__((swift_name("component26()")));
+- (NSString * _Nullable)component27 __attribute__((swift_name("component27()")));
+- (NSString * _Nullable)component28 __attribute__((swift_name("component28()")));
+- (double)component29 __attribute__((swift_name("component29()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (double)component30 __attribute__((swift_name("component30()")));
+- (NSDKDouble * _Nullable)component31 __attribute__((swift_name("component31()")));
+- (int64_t)component32 __attribute__((swift_name("component32()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKBondAdditionalPublicOfferEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl primaryInstrumentId:(int64_t)primaryInstrumentId openingAt:(int64_t)openingAt closingAt:(int64_t)closingAt actualClosedAt:(NSDKLong * _Nullable)actualClosedAt title:(NSString *)title issueSize:(NSString * _Nullable)issueSize termsOfPlacement:(NSString * _Nullable)termsOfPlacement pricePerItem:(double)pricePerItem yield:(double)yield yieldToOffer:(NSDKDouble * _Nullable)yieldToOffer minBuyLotCount:(int64_t)minBuyLotCount __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:primaryInstrumentId:openingAt:closingAt:actualClosedAt:title:issueSize:termsOfPlacement:pricePerItem:yield:yieldToOffer:minBuyLotCount:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDKLong * _Nullable actualClosedAt __attribute__((swift_name("actualClosedAt")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) int64_t closingAt __attribute__((swift_name("closingAt")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issueSize __attribute__((swift_name("issueSize")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) int64_t minBuyLotCount __attribute__((swift_name("minBuyLotCount")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) int64_t openingAt __attribute__((swift_name("openingAt")));
+@property (readonly) double pricePerItem __attribute__((swift_name("pricePerItem")));
+@property (readonly) int64_t primaryInstrumentId __attribute__((swift_name("primaryInstrumentId")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString * _Nullable termsOfPlacement __attribute__((swift_name("termsOfPlacement")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) NSString *title __attribute__((swift_name("title")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@property (readonly) double yield __attribute__((swift_name("yield")));
+@property (readonly) NSDKDouble * _Nullable yieldToOffer __attribute__((swift_name("yieldToOffer")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BondAdditionalPublicOfferEntity.Companion")))
+@interface NSDKBondAdditionalPublicOfferEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKBondAdditionalPublicOfferEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BondEntity")))
+@interface NSDKBondEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl accruedInt:(NSDKDouble * _Nullable)accruedInt couponPercent:(NSDKFloat * _Nullable)couponPercent couponValue:(NSDKDouble * _Nullable)couponValue couponPeriod:(NSDKInt * _Nullable)couponPeriod nextCoupon:(NSString * _Nullable)nextCoupon buybackPrice:(NSDKDouble * _Nullable)buybackPrice buybackDate:(NSString * _Nullable)buybackDate offerDate:(NSString * _Nullable)offerDate maturityDate:(NSString * _Nullable)maturityDate earlyRepayment:(BOOL)earlyRepayment daysToRedemption:(int32_t)daysToRedemption issueDate:(NSString * _Nullable)issueDate couponType:(NSDKCouponType * _Nullable)couponType series:(NSString * _Nullable)series __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:accruedInt:couponPercent:couponValue:couponPeriod:nextCoupon:buybackPrice:buybackDate:offerDate:maturityDate:earlyRepayment:daysToRedemption:issueDate:couponType:series:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKBondEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (NSDKDouble * _Nullable)component22 __attribute__((swift_name("component22()")));
+- (NSDKFloat * _Nullable)component23 __attribute__((swift_name("component23()")));
+- (NSDKDouble * _Nullable)component24 __attribute__((swift_name("component24()")));
+- (NSDKInt * _Nullable)component25 __attribute__((swift_name("component25()")));
+- (NSString * _Nullable)component26 __attribute__((swift_name("component26()")));
+- (NSDKDouble * _Nullable)component27 __attribute__((swift_name("component27()")));
+- (NSString * _Nullable)component28 __attribute__((swift_name("component28()")));
+- (NSString * _Nullable)component29 __attribute__((swift_name("component29()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component30 __attribute__((swift_name("component30()")));
+- (BOOL)component31 __attribute__((swift_name("component31()")));
+- (int32_t)component32 __attribute__((swift_name("component32()")));
+- (NSString * _Nullable)component33 __attribute__((swift_name("component33()")));
+- (NSDKCouponType * _Nullable)component34 __attribute__((swift_name("component34()")));
+- (NSString * _Nullable)component35 __attribute__((swift_name("component35()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKBondEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl accruedInt:(NSDKDouble * _Nullable)accruedInt couponPercent:(NSDKFloat * _Nullable)couponPercent couponValue:(NSDKDouble * _Nullable)couponValue couponPeriod:(NSDKInt * _Nullable)couponPeriod nextCoupon:(NSString * _Nullable)nextCoupon buybackPrice:(NSDKDouble * _Nullable)buybackPrice buybackDate:(NSString * _Nullable)buybackDate offerDate:(NSString * _Nullable)offerDate maturityDate:(NSString * _Nullable)maturityDate earlyRepayment:(BOOL)earlyRepayment daysToRedemption:(int32_t)daysToRedemption issueDate:(NSString * _Nullable)issueDate couponType:(NSDKCouponType * _Nullable)couponType series:(NSString * _Nullable)series __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:accruedInt:couponPercent:couponValue:couponPeriod:nextCoupon:buybackPrice:buybackDate:offerDate:maturityDate:earlyRepayment:daysToRedemption:issueDate:couponType:series:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDKDouble * _Nullable accruedInt __attribute__((swift_name("accruedInt")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString * _Nullable buybackDate __attribute__((swift_name("buybackDate")));
+@property (readonly) NSDKDouble * _Nullable buybackPrice __attribute__((swift_name("buybackPrice")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKFloat * _Nullable couponPercent __attribute__((swift_name("couponPercent")));
+@property (readonly) NSDKInt * _Nullable couponPeriod __attribute__((swift_name("couponPeriod")));
+@property (readonly) NSDKCouponType * _Nullable couponType __attribute__((swift_name("couponType")));
+@property (readonly) NSDKDouble * _Nullable couponValue __attribute__((swift_name("couponValue")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) int32_t daysToRedemption __attribute__((swift_name("daysToRedemption")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) BOOL earlyRepayment __attribute__((swift_name("earlyRepayment")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issueDate __attribute__((swift_name("issueDate")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable maturityDate __attribute__((swift_name("maturityDate")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable nextCoupon __attribute__((swift_name("nextCoupon")));
+@property (readonly) NSString * _Nullable offerDate __attribute__((swift_name("offerDate")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSString * _Nullable series __attribute__((swift_name("series")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BondEntity.Companion")))
+@interface NSDKBondEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKBondEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CatalogInstrumentEntity.Companion")))
+@interface NSDKCatalogInstrumentEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCatalogInstrumentEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CatalogInstrumentEntitySerializer")))
+@interface NSDKCatalogInstrumentEntitySerializer : NSDKBase <NSDKKotlinx_serialization_coreKSerializer>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)catalogInstrumentEntitySerializer __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCatalogInstrumentEntitySerializer *shared __attribute__((swift_name("shared")));
+- (NSDKCatalogInstrumentEntity *)deserializeDecoder:(id<NSDKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<NSDKKotlinx_serialization_coreEncoder>)encoder value:(NSDKCatalogInstrumentEntity *)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<NSDKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CurrencyEntity")))
+@interface NSDKCurrencyEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKCurrencyEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKCurrencyEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CurrencyEntity.Companion")))
+@interface NSDKCurrencyEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCurrencyEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FundEntity")))
+@interface NSDKFundEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKFundEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKFundEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FundEntity.Companion")))
+@interface NSDKFundEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKFundEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IpoEntity")))
+@interface NSDKIpoEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl openingAt:(int64_t)openingAt closingAt:(int64_t)closingAt allocationDate:(NSString *)allocationDate minSum:(double)minSum referencePrice:(double)referencePrice __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:openingAt:closingAt:allocationDate:minSum:referencePrice:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKIpoEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (int64_t)component22 __attribute__((swift_name("component22()")));
+- (int64_t)component23 __attribute__((swift_name("component23()")));
+- (NSString *)component24 __attribute__((swift_name("component24()")));
+- (double)component25 __attribute__((swift_name("component25()")));
+- (double)component26 __attribute__((swift_name("component26()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKIpoEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl openingAt:(int64_t)openingAt closingAt:(int64_t)closingAt allocationDate:(NSString *)allocationDate minSum:(double)minSum referencePrice:(double)referencePrice __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:openingAt:closingAt:allocationDate:minSum:referencePrice:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *allocationDate __attribute__((swift_name("allocationDate")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) int64_t closingAt __attribute__((swift_name("closingAt")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) double minSum __attribute__((swift_name("minSum")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) int64_t openingAt __attribute__((swift_name("openingAt")));
+@property (readonly) double referencePrice __attribute__((swift_name("referencePrice")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IpoEntity.Companion")))
+@interface NSDKIpoEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKIpoEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StockEntity")))
+@interface NSDKStockEntity : NSDKCatalogInstrumentEntity
+- (instancetype)initWithId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl lastPrice:(NSDKDouble * _Nullable)lastPrice __attribute__((swift_name("init(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:lastPrice:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKStockEntityCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
+- (NSDKCurrency * _Nullable)component10 __attribute__((swift_name("component10()")));
+- (NSDKCurrency *)component11 __attribute__((swift_name("component11()")));
+- (NSDKLong * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (BOOL)component13 __attribute__((swift_name("component13()")));
+- (NSString *)component14 __attribute__((swift_name("component14()")));
+- (NSString *)component15 __attribute__((swift_name("component15()")));
+- (BOOL)component16 __attribute__((swift_name("component16()")));
+- (NSString * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSString * _Nullable)component18 __attribute__((swift_name("component18()")));
+- (NSString * _Nullable)component19 __attribute__((swift_name("component19()")));
+- (NSDKInstrumentType *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component20 __attribute__((swift_name("component20()")));
+- (NSString * _Nullable)component21 __attribute__((swift_name("component21()")));
+- (NSDKDouble * _Nullable)component22 __attribute__((swift_name("component22()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
+- (NSDKDouble * _Nullable)component8 __attribute__((swift_name("component8()")));
+- (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
+- (NSDKStockEntity *)doCopyId:(int64_t)id type:(NSDKInstrumentType *)type name:(NSString * _Nullable)name description:(NSString * _Nullable)description ticker:(NSString *)ticker isin:(NSString * _Nullable)isin logoSrc:(NSString * _Nullable)logoSrc faceValue:(NSDKDouble * _Nullable)faceValue taxAmount:(NSDKDouble * _Nullable)taxAmount faceUnit:(NSDKCurrency * _Nullable)faceUnit currency:(NSDKCurrency *)currency issuerId:(NSDKLong * _Nullable)issuerId tradeable:(BOOL)tradeable classcode:(NSString *)classcode exchange:(NSString *)exchange availableForQualifiedOnly:(BOOL)availableForQualifiedOnly sector:(NSString * _Nullable)sector country:(NSString * _Nullable)country issuerName:(NSString * _Nullable)issuerName issuerDescription:(NSString * _Nullable)issuerDescription issuerWebsiteUrl:(NSString * _Nullable)issuerWebsiteUrl lastPrice:(NSDKDouble * _Nullable)lastPrice __attribute__((swift_name("doCopy(id:type:name:description:ticker:isin:logoSrc:faceValue:taxAmount:faceUnit:currency:issuerId:tradeable:classcode:exchange:availableForQualifiedOnly:sector:country:issuerName:issuerDescription:issuerWebsiteUrl:lastPrice:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL availableForQualifiedOnly __attribute__((swift_name("availableForQualifiedOnly")));
+@property (readonly) NSString *classcode __attribute__((swift_name("classcode")));
+@property (readonly) NSString * _Nullable country __attribute__((swift_name("country")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString * _Nullable description_ __attribute__((swift_name("description_")));
+@property (readonly) NSString *exchange __attribute__((swift_name("exchange")));
+@property (readonly) NSDKCurrency * _Nullable faceUnit __attribute__((swift_name("faceUnit")));
+@property (readonly) NSDKDouble * _Nullable faceValue __attribute__((swift_name("faceValue")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable isin __attribute__((swift_name("isin")));
+@property (readonly) NSString * _Nullable issuerDescription __attribute__((swift_name("issuerDescription")));
+@property (readonly) NSDKLong * _Nullable issuerId __attribute__((swift_name("issuerId")));
+@property (readonly) NSString * _Nullable issuerName __attribute__((swift_name("issuerName")));
+@property (readonly) NSString * _Nullable issuerWebsiteUrl __attribute__((swift_name("issuerWebsiteUrl")));
+@property (readonly) NSDKDouble * _Nullable lastPrice __attribute__((swift_name("lastPrice")));
+@property (readonly) NSString * _Nullable logoSrc __attribute__((swift_name("logoSrc")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable sector __attribute__((swift_name("sector")));
+@property (readonly) NSDKDouble * _Nullable taxAmount __attribute__((swift_name("taxAmount")));
+@property (readonly) NSString *ticker __attribute__((swift_name("ticker")));
+@property (readonly) BOOL tradeable __attribute__((swift_name("tradeable")));
+@property (readonly) NSDKInstrumentType *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StockEntity.Companion")))
+@interface NSDKStockEntityCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKStockEntityCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CatalogRepositoryImpl")))
+@interface NSDKCatalogRepositoryImpl : NSDKBase <NSDKCatalogRepository>
+- (instancetype)initWithApiClient:(NSDKNewtonApiClient *)apiClient __attribute__((swift_name("init(apiClient:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKCatalogRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getCatalogInstrumentId:(int64_t)id completionHandler:(void (^)(NSDKCatalogInstrumentEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCatalogInstrument(id:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CatalogRepositoryImpl.Companion")))
+@interface NSDKCatalogRepositoryImplCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCatalogRepositoryImplCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountStatus")))
+@interface NSDKAccountStatus : NSDKKotlinEnum<NSDKAccountStatus *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKAccountStatusCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKAccountStatus *theNew __attribute__((swift_name("theNew")));
+@property (class, readonly) NSDKAccountStatus *prepare __attribute__((swift_name("prepare")));
+@property (class, readonly) NSDKAccountStatus *signedDocuments __attribute__((swift_name("signedDocuments")));
+@property (class, readonly) NSDKAccountStatus *conditionallyActive __attribute__((swift_name("conditionallyActive")));
+@property (class, readonly) NSDKAccountStatus *active __attribute__((swift_name("active")));
+@property (class, readonly) NSDKAccountStatus *blocked __attribute__((swift_name("blocked")));
+@property (class, readonly) NSDKAccountStatus *closed __attribute__((swift_name("closed")));
+@property (class, readonly) NSDKAccountStatus *reserved __attribute__((swift_name("reserved")));
+@property (class, readonly) NSDKAccountStatus *registration __attribute__((swift_name("registration")));
+@property (class, readonly) NSDKAccountStatus *restricted __attribute__((swift_name("restricted")));
+@property (class, readonly) NSDKAccountStatus *closing __attribute__((swift_name("closing")));
++ (NSDKKotlinArray<NSDKAccountStatus *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountStatus.Companion")))
+@interface NSDKAccountStatusCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKAccountStatusCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountType")))
+@interface NSDKAccountType : NSDKKotlinEnum<NSDKAccountType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKAccountTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKAccountType *demo __attribute__((swift_name("demo")));
+@property (class, readonly) NSDKAccountType *real __attribute__((swift_name("real")));
++ (NSDKKotlinArray<NSDKAccountType *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountType.Companion")))
+@interface NSDKAccountTypeCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKAccountTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Attribute")))
+@interface NSDKAttribute : NSDKBase
+- (instancetype)initWithKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("init(key:value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKAttributeCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSDKAttribute *)doCopyKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("doCopy(key:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *key __attribute__((swift_name("key")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Attribute.Companion")))
+@interface NSDKAttributeCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKAttributeCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CouponType")))
+@interface NSDKCouponType : NSDKKotlinEnum<NSDKCouponType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKCouponTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKCouponType *constant __attribute__((swift_name("constant")));
+@property (class, readonly) NSDKCouponType *variable __attribute__((swift_name("variable")));
++ (NSDKKotlinArray<NSDKCouponType *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CouponType.Companion")))
+@interface NSDKCouponTypeCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCouponTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Currency")))
 @interface NSDKCurrency : NSDKKotlinEnum<NSDKCurrency *>
@@ -1188,6 +2162,31 @@ __attribute__((swift_name("Currency.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) NSDKCurrencyCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CurrencyValue")))
+@interface NSDKCurrencyValue : NSDKBase
+- (instancetype)initWithCurrency:(NSDKCurrency *)currency value:(double)value __attribute__((swift_name("init(currency:value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) NSDKCurrencyValueCompanion *companion __attribute__((swift_name("companion")));
+- (NSDKCurrency *)component1 __attribute__((swift_name("component1()")));
+- (double)component2 __attribute__((swift_name("component2()")));
+- (NSDKCurrencyValue *)doCopyCurrency:(NSDKCurrency *)currency value:(double)value __attribute__((swift_name("doCopy(currency:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDKCurrency *currency __attribute__((swift_name("currency")));
+@property (readonly) double value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CurrencyValue.Companion")))
+@interface NSDKCurrencyValueCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKCurrencyValueCompanion *shared __attribute__((swift_name("shared")));
 - (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
@@ -1221,6 +2220,84 @@ __attribute__((swift_name("InstrumentType.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) NSDKInstrumentTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationStatus")))
+@interface NSDKOperationStatus : NSDKKotlinEnum<NSDKOperationStatus *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKOperationStatusCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKOperationStatus *created __attribute__((swift_name("created")));
+@property (class, readonly) NSDKOperationStatus *accepted __attribute__((swift_name("accepted")));
+@property (class, readonly) NSDKOperationStatus *executing __attribute__((swift_name("executing")));
+@property (class, readonly) NSDKOperationStatus *executed __attribute__((swift_name("executed")));
+@property (class, readonly) NSDKOperationStatus *executedPartially __attribute__((swift_name("executedPartially")));
+@property (class, readonly) NSDKOperationStatus *cancelling __attribute__((swift_name("cancelling")));
+@property (class, readonly) NSDKOperationStatus *canceled __attribute__((swift_name("canceled")));
+@property (class, readonly) NSDKOperationStatus *rejected __attribute__((swift_name("rejected")));
+@property (class, readonly) NSDKOperationStatus *error __attribute__((swift_name("error")));
++ (NSDKKotlinArray<NSDKOperationStatus *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationStatus.Companion")))
+@interface NSDKOperationStatusCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationStatusCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationType")))
+@interface NSDKOperationType : NSDKKotlinEnum<NSDKOperationType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKOperationTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKOperationType *buy __attribute__((swift_name("buy")));
+@property (class, readonly) NSDKOperationType *sell __attribute__((swift_name("sell")));
+@property (class, readonly) NSDKOperationType *refill __attribute__((swift_name("refill")));
+@property (class, readonly) NSDKOperationType *withdrawal __attribute__((swift_name("withdrawal")));
++ (NSDKKotlinArray<NSDKOperationType *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OperationType.Companion")))
+@interface NSDKOperationTypeCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOperationTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OrderType")))
+@interface NSDKOrderType : NSDKKotlinEnum<NSDKOrderType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) NSDKOrderTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) NSDKOrderType *limit __attribute__((swift_name("limit")));
+@property (class, readonly) NSDKOrderType *market __attribute__((swift_name("market")));
+@property (class, readonly) NSDKOrderType *direct __attribute__((swift_name("direct")));
++ (NSDKKotlinArray<NSDKOrderType *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OrderType.Companion")))
+@interface NSDKOrderTypeCompanion : NSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) NSDKOrderTypeCompanion *shared __attribute__((swift_name("shared")));
 - (id<NSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
