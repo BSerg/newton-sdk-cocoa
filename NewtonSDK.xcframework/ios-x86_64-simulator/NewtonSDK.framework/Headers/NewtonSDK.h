@@ -739,6 +739,10 @@ __attribute__((swift_name("CandlesTimeGranularity")))
 @property (class, readonly) NSDKCandlesTimeGranularity *tenMinutes __attribute__((swift_name("tenMinutes")));
 @property (class, readonly) NSDKCandlesTimeGranularity *fifteenMinutes __attribute__((swift_name("fifteenMinutes")));
 @property (class, readonly) NSDKCandlesTimeGranularity *thirtyMinutes __attribute__((swift_name("thirtyMinutes")));
+@property (class, readonly) NSDKCandlesTimeGranularity *oneHour __attribute__((swift_name("oneHour")));
+@property (class, readonly) NSDKCandlesTimeGranularity *oneDay __attribute__((swift_name("oneDay")));
+@property (class, readonly) NSDKCandlesTimeGranularity *oneWeek __attribute__((swift_name("oneWeek")));
+@property (class, readonly) NSDKCandlesTimeGranularity *oneMonth __attribute__((swift_name("oneMonth")));
 + (NSDKKotlinArray<NSDKCandlesTimeGranularity *> *)values __attribute__((swift_name("values()")));
 @end;
 
