@@ -570,14 +570,14 @@ __attribute__((swift_name("DividendsRepositoryImpl.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DividendsResponse")))
 @interface NSDKDividendsResponse : NSDKBase
-- (instancetype)initWithResponse:(NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> *)response __attribute__((swift_name("init(response:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithResponse:(NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> * _Nullable)response __attribute__((swift_name("init(response:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) NSDKDividendsResponseCompanion *companion __attribute__((swift_name("companion")));
-- (NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> *)component1 __attribute__((swift_name("component1()")));
-- (NSDKDividendsResponse *)doCopyResponse:(NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> *)response __attribute__((swift_name("doCopy(response:)")));
+- (NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (NSDKDividendsResponse *)doCopyResponse:(NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> * _Nullable)response __attribute__((swift_name("doCopy(response:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> *response __attribute__((swift_name("response")));
+@property (readonly) NSDictionary<NSDKLong *, NSDictionary<NSDKInstrumentType *, NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> *> *> * _Nullable response __attribute__((swift_name("response")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -744,6 +744,7 @@ __attribute__((swift_name("CandlesTimeGranularity")))
 @property (class, readonly) NSDKCandlesTimeGranularity *oneWeek __attribute__((swift_name("oneWeek")));
 @property (class, readonly) NSDKCandlesTimeGranularity *oneMonth __attribute__((swift_name("oneMonth")));
 + (NSDKKotlinArray<NSDKCandlesTimeGranularity *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1030,6 +1031,7 @@ __attribute__((swift_name("TimeGranularity")))
 @property (class, readonly) NSDKTimeGranularity *month __attribute__((swift_name("month")));
 @property (class, readonly) NSDKTimeGranularity *year __attribute__((swift_name("year")));
 + (NSDKKotlinArray<NSDKTimeGranularity *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
