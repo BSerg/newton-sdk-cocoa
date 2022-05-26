@@ -149,7 +149,7 @@ __attribute__((swift_name("OperationRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getOperationHistoryAccounts:(NSArray<id<NSDKIAccountDescriptor>> *)accounts instrumentIds:(NSArray<NSDKLong *> * _Nullable)instrumentIds type:(NSArray<NSDKOperationType *> * _Nullable)type status:(NSArray<NSDKOperationStatus *> * _Nullable)status limit:(NSDKInt * _Nullable)limit timeStart:(NSDKLong * _Nullable)timeStart timeEnd:(NSDKLong * _Nullable)timeEnd completionHandler:(void (^)(NSArray<NSDKOperationEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOperationHistory(accounts:instrumentIds:type:status:limit:timeStart:timeEnd:completionHandler:)")));
@@ -162,7 +162,7 @@ __attribute__((swift_name("OperationRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKOperationRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getOperationHistoryAccounts:(NSArray<id<NSDKIAccountDescriptor>> *)accounts instrumentIds:(NSArray<NSDKLong *> * _Nullable)instrumentIds type:(NSArray<NSDKOperationType *> * _Nullable)type status:(NSArray<NSDKOperationStatus *> * _Nullable)status limit:(NSDKInt * _Nullable)limit timeStart:(NSDKLong * _Nullable)timeStart timeEnd:(NSDKLong * _Nullable)timeEnd completionHandler:(void (^)(NSArray<NSDKOperationEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOperationHistory(accounts:instrumentIds:type:status:limit:timeStart:timeEnd:completionHandler:)")));
@@ -386,7 +386,7 @@ __attribute__((swift_name("PortfolioRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getPortfolioTypes:(NSArray<NSDKAccountType *> *)types yieldCalculationDateFrom:(NSString * _Nullable)yieldCalculationDateFrom withoutYield:(NSDKBoolean * _Nullable)withoutYield completionHandler:(void (^)(NSArray<NSDKAccountEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPortfolio(types:yieldCalculationDateFrom:withoutYield:completionHandler:)")));
@@ -399,7 +399,7 @@ __attribute__((swift_name("PortfolioRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKPortfolioRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getPortfolioTypes:(NSArray<NSDKAccountType *> *)types yieldCalculationDateFrom:(NSString * _Nullable)yieldCalculationDateFrom withoutYield:(NSDKBoolean * _Nullable)withoutYield completionHandler:(void (^)(NSArray<NSDKAccountEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPortfolio(types:yieldCalculationDateFrom:withoutYield:completionHandler:)")));
@@ -539,7 +539,7 @@ __attribute__((swift_name("DividendsRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("API will be changed")));
@@ -552,7 +552,7 @@ __attribute__((swift_name("DividendsRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKDividendsRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getDividendsCompanyId:(int64_t)companyId currency:(NSDKCurrency *)currency instrumentType:(NSDKInstrumentType *)instrumentType groupByYearHappened:(BOOL)groupByYearHappened yearsCount:(int32_t)yearsCount completionHandler:(void (^)(NSDictionary<NSDKInt *, NSArray<NSDKDividendEntity *> *> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDividends(companyId:currency:instrumentType:groupByYearHappened:yearsCount:completionHandler:)"))) __attribute__((deprecated("Overrides deprecated member in 'io.nwtn.dividends.domain.DividendsRepository'. API will be changed")));
@@ -879,13 +879,13 @@ __attribute__((swift_name("HistoryMarketDataRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getHistoryMarketDataInstrumentId:(int64_t)instrumentId granularity:(NSDKTimeGranularity *)granularity pointsNum:(int32_t)pointsNum startTime:(int64_t)startTime endTime:(NSDKLong * _Nullable)endTime completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketData(instrumentId:granularity:pointsNum:startTime:endTime:completionHandler:)")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(int64_t)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
@@ -982,7 +982,7 @@ __attribute__((swift_name("MarketDataRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getMarketDataInstrumentId:(int64_t)instrumentId completionHandler:(void (^)(NSDKMarketDataEntity * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getMarketData(instrumentId:completionHandler:)")));
@@ -1121,13 +1121,13 @@ __attribute__((swift_name("HistoryMarketDataRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKHistoryMarketDataRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getHistoryMarketDataInstrumentId:(int64_t)instrumentId granularity:(NSDKTimeGranularity *)granularity pointsNum:(int32_t)pointsNum startTime:(int64_t)startTime endTime:(NSDKLong * _Nullable)endTime completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketData(instrumentId:granularity:pointsNum:startTime:endTime:completionHandler:)")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getHistoryMarketDataCandlesInstrumentId:(int64_t)instrumentId granularity:(NSDKCandlesTimeGranularity *)granularity periodStart:(int64_t)periodStart periodEnd:(int64_t)periodEnd completionHandler:(void (^)(NSArray<NSDKHistoryMarketDataCandleEntity *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getHistoryMarketDataCandles(instrumentId:granularity:periodStart:periodEnd:completionHandler:)")));
@@ -1265,7 +1265,7 @@ __attribute__((swift_name("MarketDataRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKMarketDataRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getMarketDataInstrumentId:(int64_t)instrumentId completionHandler:(void (^)(NSDKMarketDataEntity * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getMarketData(instrumentId:completionHandler:)")));
@@ -1519,7 +1519,7 @@ __attribute__((swift_name("CatalogRepository")))
 @required
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getCatalogInstrumentId:(int64_t)id completionHandler:(void (^)(NSDKCatalogInstrumentEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCatalogInstrument(id:completionHandler:)")));
@@ -2032,7 +2032,7 @@ __attribute__((swift_name("CatalogRepositoryImpl")))
 @property (class, readonly, getter=companion) NSDKCatalogRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
- @note This method converts instances of CancellationException to errors.
+ @note This method converts instances of NewtonApiError, CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getCatalogInstrumentId:(int64_t)id completionHandler:(void (^)(NSDKCatalogInstrumentEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCatalogInstrument(id:completionHandler:)")));
