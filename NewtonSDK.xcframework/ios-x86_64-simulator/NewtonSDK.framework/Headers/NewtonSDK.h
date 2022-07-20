@@ -2218,6 +2218,14 @@ __attribute__((swift_name("Currency")))
 @property (class, readonly) NSDKCurrency *rub __attribute__((swift_name("rub")));
 @property (class, readonly) NSDKCurrency *usd __attribute__((swift_name("usd")));
 @property (class, readonly) NSDKCurrency *eur __attribute__((swift_name("eur")));
+@property (class, readonly) NSDKCurrency *gbp __attribute__((swift_name("gbp")));
+@property (class, readonly) NSDKCurrency *cny __attribute__((swift_name("cny")));
+@property (class, readonly) NSDKCurrency *chf __attribute__((swift_name("chf")));
+@property (class, readonly) NSDKCurrency *cad __attribute__((swift_name("cad")));
+@property (class, readonly) NSDKCurrency *ils __attribute__((swift_name("ils")));
+@property (class, readonly) NSDKCurrency *zar __attribute__((swift_name("zar")));
+@property (class, readonly) NSDKCurrency *kzt __attribute__((swift_name("kzt")));
+@property (class, readonly) NSDKCurrency *hkd __attribute__((swift_name("hkd")));
 + (NSDKKotlinArray<NSDKCurrency *> *)values __attribute__((swift_name("values()")));
 @end;
 
