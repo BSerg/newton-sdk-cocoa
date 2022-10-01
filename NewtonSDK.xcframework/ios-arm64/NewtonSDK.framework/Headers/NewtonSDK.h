@@ -892,12 +892,13 @@ __attribute__((swift_name("HistoryMarketDataCandleEntity.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("HistoryMarketDataEntity")))
 @interface NSDKHistoryMarketDataEntity : NSDKBase
-- (instancetype)initWithOpen:(NSDKDouble * _Nullable)open close:(double)close high:(NSDKDouble * _Nullable)high low:(NSDKDouble * _Nullable)low volume:(int64_t)volume time:(int64_t)time startTime:(NSDKLong * _Nullable)startTime endTime:(NSDKLong * _Nullable)endTime faceValue:(NSDKDouble * _Nullable)faceValue accruedInterest:(NSDKDouble * _Nullable)accruedInterest faceValueInCurrency:(NSDKDouble * _Nullable)faceValueInCurrency accruedInterestInCurrency:(NSDKDouble * _Nullable)accruedInterestInCurrency __attribute__((swift_name("init(open:close:high:low:volume:time:startTime:endTime:faceValue:accruedInterest:faceValueInCurrency:accruedInterestInCurrency:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOpen:(NSDKDouble * _Nullable)open close:(double)close high:(NSDKDouble * _Nullable)high low:(NSDKDouble * _Nullable)low volume:(int64_t)volume time:(int64_t)time startTime:(NSDKLong * _Nullable)startTime endTime:(NSDKLong * _Nullable)endTime yield:(NSDKDouble * _Nullable)yield faceValue:(NSDKDouble * _Nullable)faceValue accruedInterest:(NSDKDouble * _Nullable)accruedInterest faceValueInCurrency:(NSDKDouble * _Nullable)faceValueInCurrency accruedInterestInCurrency:(NSDKDouble * _Nullable)accruedInterestInCurrency __attribute__((swift_name("init(open:close:high:low:volume:time:startTime:endTime:yield:faceValue:accruedInterest:faceValueInCurrency:accruedInterestInCurrency:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) NSDKHistoryMarketDataEntityCompanion *companion __attribute__((swift_name("companion")));
 - (NSDKDouble * _Nullable)component1 __attribute__((swift_name("component1()")));
 - (NSDKDouble * _Nullable)component10 __attribute__((swift_name("component10()")));
 - (NSDKDouble * _Nullable)component11 __attribute__((swift_name("component11()")));
 - (NSDKDouble * _Nullable)component12 __attribute__((swift_name("component12()")));
+- (NSDKDouble * _Nullable)component13 __attribute__((swift_name("component13()")));
 - (double)component2 __attribute__((swift_name("component2()")));
 - (NSDKDouble * _Nullable)component3 __attribute__((swift_name("component3()")));
 - (NSDKDouble * _Nullable)component4 __attribute__((swift_name("component4()")));
@@ -906,7 +907,7 @@ __attribute__((swift_name("HistoryMarketDataEntity")))
 - (NSDKLong * _Nullable)component7 __attribute__((swift_name("component7()")));
 - (NSDKLong * _Nullable)component8 __attribute__((swift_name("component8()")));
 - (NSDKDouble * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (NSDKHistoryMarketDataEntity *)doCopyOpen:(NSDKDouble * _Nullable)open close:(double)close high:(NSDKDouble * _Nullable)high low:(NSDKDouble * _Nullable)low volume:(int64_t)volume time:(int64_t)time startTime:(NSDKLong * _Nullable)startTime endTime:(NSDKLong * _Nullable)endTime faceValue:(NSDKDouble * _Nullable)faceValue accruedInterest:(NSDKDouble * _Nullable)accruedInterest faceValueInCurrency:(NSDKDouble * _Nullable)faceValueInCurrency accruedInterestInCurrency:(NSDKDouble * _Nullable)accruedInterestInCurrency __attribute__((swift_name("doCopy(open:close:high:low:volume:time:startTime:endTime:faceValue:accruedInterest:faceValueInCurrency:accruedInterestInCurrency:)")));
+- (NSDKHistoryMarketDataEntity *)doCopyOpen:(NSDKDouble * _Nullable)open close:(double)close high:(NSDKDouble * _Nullable)high low:(NSDKDouble * _Nullable)low volume:(int64_t)volume time:(int64_t)time startTime:(NSDKLong * _Nullable)startTime endTime:(NSDKLong * _Nullable)endTime yield:(NSDKDouble * _Nullable)yield faceValue:(NSDKDouble * _Nullable)faceValue accruedInterest:(NSDKDouble * _Nullable)accruedInterest faceValueInCurrency:(NSDKDouble * _Nullable)faceValueInCurrency accruedInterestInCurrency:(NSDKDouble * _Nullable)accruedInterestInCurrency __attribute__((swift_name("doCopy(open:close:high:low:volume:time:startTime:endTime:yield:faceValue:accruedInterest:faceValueInCurrency:accruedInterestInCurrency:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -922,6 +923,7 @@ __attribute__((swift_name("HistoryMarketDataEntity")))
 @property (readonly) NSDKLong * _Nullable startTime __attribute__((swift_name("startTime")));
 @property (readonly) int64_t time __attribute__((swift_name("time")));
 @property (readonly) int64_t volume __attribute__((swift_name("volume")));
+@property (readonly) NSDKDouble * _Nullable yield __attribute__((swift_name("yield")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
